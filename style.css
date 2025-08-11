@@ -8,3 +8,13 @@ a{ color:var(--accent); text-decoration:none } a:hover{text-decoration:underline
 button{ padding:10px 16px; border:0; border-radius:10px; background:var(--accent); color:#0b1220; font-weight:600; cursor:pointer }
 button:active{ transform:translateY(1px) }
 img{ border-radius:12px; display:block }
+#actionBtn{
+  padding:10px 16px;
+  border:0;
+  border-radius:10px;
+  background:var(--accent);
+  color:#0b1220;
+  font-weight:600;
+  cursor:pointer;
+}
+#actionBtn:active{ transform:translateY(1px) }
