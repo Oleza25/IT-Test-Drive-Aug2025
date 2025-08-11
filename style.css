@@ -18,3 +18,19 @@ img{ border-radius:12px; display:block }
   cursor:pointer;
 }
 #actionBtn:active{ transform:translateY(1px) }
+#actionBtn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #60a5fa; /* голубой */
+  color: #0b1220; /* тёмный текст */
+  font-weight: 600;
+  cursor: pointer;
+}
+#actionBtn:hover {
+  background: #3b82f6; /* чуть темнее при наведении */
+}
+#actionBtn:active {
+  transform: translateY(1px);
+}
+
