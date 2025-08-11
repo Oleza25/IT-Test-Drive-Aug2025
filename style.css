@@ -43,9 +43,10 @@ img{ border-radius:12px; display:block; }
 #actionBtn:hover { background: #3b82f6 !important; }
 #actionBtn:active { transform: translateY(1px); }
 .myImage {
-    width: 400px; 
-    height: auto;
+    width: 400px !important; 
+    height: auto !important; 
     border-radius: 10px;
     display: block;
     margin: 20px auto;
 }
+
