@@ -42,3 +42,11 @@ img{ border-radius:12px; display:block; }
 }
 #actionBtn:hover { background: #3b82f6 !important; }
 #actionBtn:active { transform: translateY(1px); }
+.myImage {
+    max-width: 100%; /* картинка не шире экрана */
+    width: 400px; /* обычный размер */
+    height: auto; /* сохраняем пропорции */
+    border-radius: 10px; /* скругляем углы */
+    display: block; /* переносим на отдельную строку */
+    margin: 20px auto; /* выравниваем по центру */
+}
