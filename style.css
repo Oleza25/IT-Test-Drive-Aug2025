@@ -49,4 +49,22 @@ img{ border-radius:12px; display:block; }
     display: block;
     margin: 20px auto;
 }
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    background-color: #3b82f6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #2563eb;
+}
 
