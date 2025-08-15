@@ -7,16 +7,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav>
-        <a href="index.html">Главная</a> · 
+    
+    <header>
+    <div class="container navbar">
+      <div class="brand">IT Test-Drive</div>
+      <nav>
+        <a href="index.html">Главная</a>
         <a href="about.html">О проекте</a>
-    </nav>
+      </nav>
+    </div>
+  </header>
 
-    <h1>Привет, мир!</h1>
-    <p>Добро пожаловать на мой первый сайт!</p>
+  <!-- Герой-блок -->
+  <main class="container hero center">
+    <h1 class="hero-title">Привет, мир!</h1>
+    <p class="hero-sub">Мой первый сайт. Мини-проекты по HTML/CSS/JS и наглядное обучение без лишних слов.</p>
+    <a class="btn btn-primary" href="about.html">Что тут происходит?</a>
 
+    <!-- твоя картинка -->
+    <img src="comical-wallpapers-1920x1080-00012.jpg" alt="Картинка" class="hero-img">
+
+    <!-- учебный мини-JS блок -->
+    <section class="section">
+      <h2 class="center" style="margin:0 0 16px">Мини-интерактив</h2>
+      <p id="status" class="center" style="margin:0 0 12px">Стартовая версия страницы. Сейчас всё работает 🎉</p>
+      <div class="center">
+        <button id="actionBtn">Нажми меня</button>
+      </div>
+    </section>
+
+    <!-- блок преимуществ -->
+    <section class="section">
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Просто</h3>
+          <p>Готовые куски + пояснения. Делаешь и сразу видишь результат.</p>
+        </div>
+        <div class="card">
+          <h3>Красиво</h3>
+          <p>Чистая типографика, много воздуха, плавные состояния.</p>
+        </div>
+        <div class="card">
+          <h3>Полезно</h3>
+          <p>Каждый шаг — кирпичик в понимании веба.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Футер -->
+  <footer>
+    <div class="container">
+      <small>© 2025. Сделано мной.</small>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
 </body>
-</html>
-
-
