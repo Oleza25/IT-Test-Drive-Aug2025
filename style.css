@@ -85,4 +85,34 @@ footer .container{display:flex;justify-content:center;opacity:.8}
 
 /* Вспомогательные */
 .center{text-align:center}
+/* Хедер/меню — чуть больше воздуха */
+header { border-bottom: 1px solid var(--line); }
+.navbar { min-height: 56px; }
+.brand { font-size: 14px; opacity:.9; }
+
+/* Кнопка-CTA покрупнее */
+.btn.btn-primary { padding: 14px 20px; border-radius: 14px; }
+
+/* Картинка-герой — мягкая тень и рамка */
+.hero-img{
+  width:min(100%, 920px);
+  height:auto;
+  display:block;
+  margin:28px auto 0;
+  border-radius:16px;
+  border:1px solid var(--line);
+  box-shadow: 0 20px 40px rgba(0,0,0,.35);
+}
+
+/* Карточки одной высоты + аккуратные подписи */
+.grid-3 { align-items: stretch; }
+.card { display:flex; flex-direction:column; justify-content:space-between; }
+.card p { margin-top:6px; color:var(--muted); }
+
+/* На мобильных — чуть компактнее отступы */
+@media (max-width: 600px){
+  .hero { padding:56px 0 28px; }
+  .btn.btn-primary { padding:12px 18px; }
+}
+
 
